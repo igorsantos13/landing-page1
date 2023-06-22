@@ -9,11 +9,11 @@ import '@/app/App.css'
 export default function Main() {
 
   return (
-    <main className='w-screen h-screen bg-gray-900'>
+    <main className='flex flex-col justify-center w-screen h-screen bg-gray-900'>
         <Image src={apple} alt='apple' fill={true} quality={100}/>
       <Navbar />
 
-      
+      <Action />
 
     </main>
   )
